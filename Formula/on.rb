@@ -1,20 +1,20 @@
 class On < Formula
   desc "A CLI tool to launch your dev environment with one command"
   homepage "https://github.com/rickyshin93/launch"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rickyshin93/launch/releases/download/v0.3.0/on-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d5a578d16b556d25da24bdd41f328a45caf78aaf461c9ac616af53fa6a31f5e0"
+      url "https://github.com/rickyshin93/launch/releases/download/v0.3.1/on-v0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "d02fa73b710dc4c0e8b95db58b05245fe9c96c879057086fc105a8bc54fcd505"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/rickyshin93/launch/releases/download/v0.3.0/on-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8ff1cfbe487e06a968706ff5d476d80eb8ca2a9defb0ba4a1edca00a547366d6"
+      url "https://github.com/rickyshin93/launch/releases/download/v0.3.1/on-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3a62b3b4c7152e484e3720a0e16da484bdce05aa66fa75bd855dd2ebb65b325e"
     end
   end
 
